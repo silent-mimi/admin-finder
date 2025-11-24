@@ -72,8 +72,58 @@ def find_admin_panel(url):
         "/manage", "/secure", "/siteadmin", "/webmaster", "/cp", "/control",
         "/site/login", "/access", "/web/admin", "/admin/login", "/cp-login",
         "/admin-login", "/adminarea", "/webmaster/login", "/member/login",
-        "/portal", "/staff", "/superadmin" 
-    ]
+        "/portal", "/staff", "/superadmin",
+    "/admin", "/administrator", "/admincp", "/adminpanel", "/adminarea",
+    "/controlpanel", "/cpanel", "/login", "/manager", "/backend",
+    "/dashboard", "/management", "/editor", "/cms", "/system", "/secure",
+    "/moderator", "/webadmin", "/siteadmin", "/portal", "/console",
+    
+    # ------------------------------- وردپرس
+    "/wp-admin", "/wp-login.php", "/wp-login", "/wp-admin.php",
+    "/wp-admin/setup-config.php", "/wp-content/plugins", "/wp-includes",
+    
+    # ------------------------------- جوملا
+    "/administrator/index.php", "/joomla/administrator", "/joomla/login",
+    
+    # ------------------------------- دروپال
+    "/user/login", "/admin/config", "/drupal/login", "/drupal/admin",
+    
+    # ------------------------------- مجنتو
+    "/adminhtml", "/admin123", "/magento/admin", "/magento/index.php/admin",
+    
+    # ------------------------------- اپن‌کارت / پرستاشاپ
+    "/admin/", "/admin123/", "/admin1/", "/admin2/", "/adm/", "/shop/admin",
+    "/prestashop/admin", "/prestashop/login", "/store/admin",
+    
+    # ------------------------------- لاراول / PHP / Node
+    "/admin/login", "/admin/dashboard", "/admin-panel", "/panel",
+    "/login.php", "/useradmin", "/dashboard/login", "/backend/login",
+    "/auth/login", "/account/login", "/system-admin",
+    
+    # ------------------------------- phpMyAdmin و مشابه DB panels
+    "/phpmyadmin", "/pma", "/sqladmin", "/mysql", "/dbadmin", "/database",
+    
+    # ------------------------------- هاستینگ‌ها و کنترل‌پنل‌ها
+    "/cpanel", "/webmail", "/plesk", "/ispconfig", "/vesta", "/directadmin",
+    "/serveradmin", "/whm", "/admincp/", "/sitecontrol",
+    
+    # ------------------------------- فریم‌ورک‌ها و CMSهای متفاوت
+    "/typo3", "/typo3/index.php", "/silverstripe/admin", "/umbraco",
+    "/craftcms/admin", "/october/backend", "/strapi/admin",
+    
+    # ------------------------------- اختصاصی / متداول در پروژه‌های سفارشی
+    "/admin_area", "/admin_console", "/admin_interface", "/control",
+    "/manage", "/panel_admin", "/config_admin", "/moderation",
+    "/staff/login", "/login_admin", "/root", "/superuser/login",
+    
+    # ------------------------------- مسیرهای پشتی / تستی
+    "/hidden_admin", "/secret", "/private", "/testadmin", "/beta/admin",
+    "/oldadmin", "/backup/admin", "/userpanel", "/clientarea",
+    
+    # ------------------------------- مسیرهای خاص API یا SPA
+    "/api/admin", "/api/dashboard", "/graphql", "/admin/api",
+    "/backend/api/login", "/admin/auth", "/jwt/login"
+]
     
    
     base_url = url.rstrip('/')
